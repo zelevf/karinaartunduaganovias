@@ -1,0 +1,118 @@
+.ventanaFoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  position: fixed;
+  width: 100%;
+  height: 53vmax;
+  margin-top: 8vw;
+  top: 0;
+  z-index: 2;
+}
+
+.ventanaFoto .fullSizeContainer {
+  background: #fffffff5;
+  width: 100%;
+  margin-top: 7vw;
+  top: 0;
+  position: fixed;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0vw 0vw 8vw 0vw;
+  height: 82vh;
+}
+
+.ventanaFoto .fullSizeContainer .fullSizeImage {
+  margin: auto;
+}
+
+.ventanaFoto .fullSizeContainer .previousImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: center;
+  position: absolute;
+  width: 1.4vw;
+  margin-top: 40vh;
+  margin-left: 10%;
+  padding: 1vw;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ventanaFoto .fullSizeContainer .previousImage:hover {
+  background: #bebebe;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ventanaFoto .fullSizeContainer .nextImage {
+  position: absolute;
+  width: 1.4vw;
+  margin-top: 40vh;
+  margin-left: 88%;
+  padding: 1vw;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ventanaFoto .fullSizeContainer .nextImage:hover {
+  background: #bebebe;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ventanaFoto .divCerrar {
+  position: relative;
+  z-index: 5;
+  height: 8vw;
+  width: 8vw;
+}
+
+.ventanaFoto .divCerrar .cerrarFullSize {
+  position: relative;
+  width: 3vw;
+  top: 0;
+  right: 0;
+  margin: 4vw 10vw 0vw 0vw;
+  cursor: pointer;
+  opacity: 0.5;
+  scale: .8;
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: 4;
+}
+
+.ventanaFoto .divCerrar .cerrarFullSize:hover {
+  opacity: 1;
+  scale: 1;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=fullsizeImage.css.map */

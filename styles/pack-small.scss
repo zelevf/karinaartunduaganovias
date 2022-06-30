@@ -1,0 +1,50 @@
+@media (max-width: 425px) {
+    .contenedorFotos{
+        margin-top: 12vw;
+        padding-top: 8vw;
+
+        .packFotos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 94%;
+            margin: auto;
+            margin-top: 4vw;
+            justify-content: space-between;
+        
+            .card {
+                width: 30vw;
+                height: 30vw; 
+                margin: auto;    
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 4vw;
+         
+                img{      
+                    align-items: center;
+                    width: 100%;
+                    margin: auto;  
+                }
+            }
+        }
+    }
+
+    .infoAlbumContainer {
+        // background: red;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        .infoAlbum {
+            margin: .1vw 5vw 3vw auto;
+            font-size: 4vw;
+            font-weight: 300;
+            color: #363636;
+            font-style: oblique;
+    
+            .autorAlbum {
+                text-decoration: none;
+                color: #363636;
+            }
+        }
+    }
+} 

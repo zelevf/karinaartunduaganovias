@@ -1,0 +1,62 @@
+@media (max-width: 425px) {
+
+    .ventanaFoto {
+        margin-top: 11vw;
+    
+        .fullSizeContainer {
+            margin-top: 3vw;
+            height: 98vh;  
+            display: flex;
+            flex-direction: column;   
+            
+        
+            .previousImage {
+                width: 6vw;
+                margin-top: 44vh;
+                margin-left: 1vw;
+                cursor: pointer;
+            }
+        
+            .nextImage {
+                width: 6vw;
+                margin-top: 44vh;
+                margin-left: 91%;
+                cursor: pointer;
+            }
+
+            // .autorFoto {
+            //     position: relative;
+            //     background: red;
+            //     width: 100%;
+            //     display: flex;
+            //     flex-direction: column;
+            //     // justify-content: center;
+            //     margin: auto;
+            //     text-align: center;
+            //     // margin-top: 150vw;
+            //     // margin-top: 150%;
+            //     // margin-bottom: 2vw;
+            //     // top: 122vw;
+            //     // bottom: 10vw;
+            //     margin: 0vw;
+            //     margin-bottom: 50vw;
+    
+            //     font-size: 4vw;
+            //     font-weight: 300;
+            //     color: #363636;
+            //     font-style: oblique;
+            //     text-decoration: none;
+            // }
+        }
+        
+        .divCerrar {
+            height: 16vw;
+            width: 16vw;
+        
+            .cerrarFullSize {
+                width: 8vw;
+                margin: 8vw 10vw 0vw 5vw;
+            }
+        }
+    }
+}

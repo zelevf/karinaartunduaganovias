@@ -1,0 +1,360 @@
+// @charset "UTF-8";
+@media (max-width: 425px) {
+
+    body {
+        background: red;
+        .header{
+            height: 12vw;
+            justify-content: space-around;
+            width: 100%;
+        
+            .empresa {
+
+                a{
+                    margin-left: 0vw;
+
+                    .logoEmpresa {
+                        height: 8vw;
+                    }
+                }
+            }
+        
+            .titlePage{
+                font-size: 6vw;
+            }
+
+            .navegacion {
+                height: 12vw;
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                width: 100%;
+                margin: auto;
+                // margin-top: 176vw;
+                margin-top: 52vw;
+                height: 164vw;
+                height: 40vw;
+                background: #dc8a8e;
+                // justify-content: center;
+
+                .lista {
+                    flex-direction: column;
+                    // background: rgba(34, 34, 34, 0.774);
+
+                    padding: 0vw;
+                    width: 100%;
+                    // display: flex;
+                    margin: auto;
+                    align-items: center;
+                    text-align: center;
+                    
+                    li {
+                        padding: 0vw;   
+                        width: 100%;
+                        display: flex;
+                        margin: auto;
+                        align-items: center;
+                        text-align: center;
+                        
+                        // color: #ffffff; 
+                        
+                        .enlaceNav{
+                            color: #ffffff;
+                            font-size: 6vw;
+                            // padding: 2vw 0vw;
+                            width: 100%;
+                            display: flex;
+                            margin: auto;
+                            align-items: center;
+                            text-align: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                .socialNetworks {
+                    // background: red;
+                    display: flex;
+                    width: 32vw;
+                    justify-content: center;
+                    margin: auto;
+        
+    
+    
+                    .linkRRSS {
+                        display: none;
+                    }
+
+                    .linkRRSS-mobile {
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin: auto;
+                        // background: green;
+    
+                        .imageRRSS {
+                            display: flex;
+                            width: 7vw;
+                            height: 7vw;
+                            margin-right: 0vw;
+                        }
+                    }
+                }
+            }
+
+            .navegacionMobile{
+                display: flex;
+            }
+        }
+ 
+        .homeBody {
+            margin-top: 6vw;
+            // padding-top: 6vw;
+
+            .heroCover{
+                height: 115vw;
+                position: relative;
+                margin: 8vw auto 0vw auto;
+                background-image: url('../pictures/home/hero/1A_PORTADA-mobile.png');
+            }
+
+            .autorFotoContainer {
+                
+                .infoFoto {
+                    margin: .1vw 2vw 7vw auto;
+                    font-size: 3.4vw;
+                    font-weight: 300;
+                }
+            }
+
+            .presentationText{
+                margin-top: 0vw;
+                padding: 2vw 0vw;
+                font-size: 4vw;
+                font-weight: 200;
+
+            }
+
+            .homePresentation {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                z-index: 4;
+                background: #ffffff;
+                padding: 2vw 0vw;
+    
+                .presentationPicture {
+                    position: relative;
+                    width: 45%;
+                    height: 66vw;
+                    background-image: url('../pictures/home/presentation/M&J-233.png'); 
+                    background-size: cover;
+                    margin: 0vw 5vw;
+                    z-index: 1;
+                }
+    
+                .presentationInfo {
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto 0vw;
+                    width: 50%;
+    
+                    .presentationDetails {
+                        font-size: 4vw;
+                        font-weight: 200;
+                    }
+                }
+            }
+
+            .categorias{
+
+                .subtitle {
+                    font-size: 6vw;
+                }
+
+                .contenedorCategorias {
+                    display: flex;
+                    flex-direction: column;
+                    // background: red;
+
+                    .itemCategorias {
+                        width: 80%;
+                        // width: 20vw;
+                        margin-bottom: 8vw;
+
+                        .sutituloCategoria {
+                            font-size: 4.5vw;
+                        }
+    
+                        img{
+                            width: 64vw;
+                            height: 64vw;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                // padding: 5vw;
+                margin: 0vw;
+                padding: 2vw 0vw;
+
+
+            
+                .formContainer {      
+                    
+                    .contactTitle {
+                        font-size: 6vw;
+                    }
+
+                    .categoryContact {   
+                        width: 80%;
+                        margin: 2vw auto 4vw auto;
+
+                        .categoryContactTitle {
+                            font-size: 3.3vw;
+                            width: 100%;
+                        }
+                
+                        .categoryContactInput {
+                            height: 6vw;
+                            // margin-top: 2vw;
+                            width: 100%;
+                            font-size: 4.8vw;
+                            font-weight: 100;
+                        }
+                    }
+                
+                    .categoryContact {                
+                        .categoryContactTitle {
+                            width: 100%;
+                            font-size: 4vw;
+                        }
+                
+                        .categoryContactTextArea {
+                            height: 40vw;
+                            width: 100%;
+                            font-size: 4.8vw;
+                        }
+                    }
+
+                    .buttonContainer {
+                        .contactButton{
+                            width: 40%;
+                            margin: 4vw auto;
+                            font-size: 4vw;
+                            padding: 3vw 4vw;
+                        }
+                    }
+            
+
+                }
+            }
+
+            .information {
+                padding: 10vw 0vw;   
+        
+                .subtitle {
+                    margin: 2vw auto;
+                    font-size: 6vw;
+                }
+        
+                .informationPart {
+                    margin: 1vw auto;
+        
+                    .subtitle2 {
+                        // background: red;
+                        display: flex;
+                        margin: 0vw;
+                        justify-content: center;
+                        font-size: 4.8vw;
+                        font-weight: 500;
+                        color: #ffffff;
+                        text-shadow: 1px 1px #757575;
+                    }
+        
+                    .informationText {
+                        display: flex;
+                        margin: 0vw;
+                        justify-content: center;
+                        text-align: center;
+                        font-size: 4vw;
+                        font-weight: 300;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+
+
+ 
+        .footer{
+            height: 4vw;
+            margin: 2vw 0vw;
+
+        
+            .footerDiv{
+        
+                h4{
+                    width: 100%;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    text-decoration: none;
+                    color: #616161;
+                    font-size: 3vw;
+                    font-weight: 500;
+                    z-index: 4;
+                    margin: 0vw;
+                }
+    
+                // .socialNetwork{
+                //     // width: 10vw;
+                //     display: flex;
+                //     flex-direction: row;
+                //     z-index: 4;
+                //     // background: green;
+        
+                //     a{
+                //         margin: auto 1vw;
+                //         display: flex;
+                //         flex-direction: column;
+                        
+                //         .rrss{
+                //             width: 1.1vw;
+                //         }
+                //     }
+                // }
+            }
+    
+            .developedBy {
+                display: flex;
+                flex: row;
+                justify-content: center;
+                text-align: center;
+                margin: 0vw 0vw 5vw 0vw;
+            
+                .develpedText {
+                    // margin: .3vw .2vw .3vw 0vw; 
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 2vw;
+                    font-weight: 300;
+                }
+            
+                .zelevf {
+                    font-size: 1.7vw;
+    
+                    .zelevfText {
+                        font-weight: 400;
+                    }
+                }
+            
+            }
+        }
+    }
+}
+

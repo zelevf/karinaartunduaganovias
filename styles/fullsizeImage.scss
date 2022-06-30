@@ -1,0 +1,100 @@
+.ventanaFoto {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    width: 100%;
+    height: 53vmax;
+    margin-top: 8vw;
+    // background: rgba(41, 41, 41, 0.781);
+    // background: red;
+    // background: #ffffff;
+    top: 0;
+    z-index: 2;
+
+    .fullSizeContainer {
+        // background: #383838cb;
+        background: #fffffff5;
+        width: 100%;
+        margin-top: 7vw;
+        top: 0;
+        position: fixed;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        padding: 0vw 0vw 8vw 0vw;
+        height: 82vh;
+        
+    
+        .fullSizeImage {
+            margin: auto;
+        }
+    
+        .previousImage {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            vertical-align: center;
+            position: absolute;
+            width: 1.4vw;
+            margin-top: 40vh;
+            margin-left: 10%;
+            padding: 1vw;
+            background: none;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .previousImage:hover {
+            background: rgb(190, 190, 190);
+            transition: .3s;
+        }
+    
+        .nextImage {
+            position: absolute;
+            width: 1.4vw;
+            margin-top: 40vh;
+            margin-left: 88%;
+            padding: 1vw;
+            background: none;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .nextImage:hover {
+            background: rgb(190, 190, 190);
+            transition: .3s;
+        }
+    }
+    
+    .divCerrar {
+        position: relative;
+        z-index: 5;
+        height: 8vw;
+        width: 8vw;
+    
+        .cerrarFullSize {
+            position: relative;
+            width: 3vw;
+            top: 0;
+            right: 0;
+            margin: 4vw 10vw 0vw 0vw;
+            cursor: pointer;
+            opacity: 0.5;
+            scale: .8;
+            transition: .2s;
+            z-index: 4;
+        }
+    
+        .cerrarFullSize:hover {
+            opacity: 1;
+            scale: 1;
+            transition: .2s;
+            transform: scale(1.1);
+        }
+    }
+}
+
+

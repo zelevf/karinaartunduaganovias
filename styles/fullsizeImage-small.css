@@ -1,0 +1,37 @@
+@media (max-width: 425px) {
+  .ventanaFoto {
+    margin-top: 11vw;
+  }
+  .ventanaFoto .fullSizeContainer {
+    margin-top: 3vw;
+    height: 98vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ventanaFoto .fullSizeContainer .previousImage {
+    width: 6vw;
+    margin-top: 44vh;
+    margin-left: 1vw;
+    cursor: pointer;
+  }
+  .ventanaFoto .fullSizeContainer .nextImage {
+    width: 6vw;
+    margin-top: 44vh;
+    margin-left: 91%;
+    cursor: pointer;
+  }
+  .ventanaFoto .divCerrar {
+    height: 16vw;
+    width: 16vw;
+  }
+  .ventanaFoto .divCerrar .cerrarFullSize {
+    width: 8vw;
+    margin: 8vw 10vw 0vw 5vw;
+  }
+}
+/*# sourceMappingURL=fullsizeImage-small.css.map */

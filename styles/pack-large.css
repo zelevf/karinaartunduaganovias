@@ -1,0 +1,74 @@
+.contenedorFotos {
+  margin-top: 8vw;
+}
+
+.contenedorFotos .packFotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 94%;
+  margin: auto;
+  margin-top: 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorFotos .packFotos .card {
+  width: 18vw;
+  height: 18vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2vw;
+}
+
+.contenedorFotos .packFotos .card .fotoLibrary {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.contenedorFotos .packFotos .card .fotoLibrary:hover {
+  cursor: pointer;
+}
+
+.infoAlbumContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.infoAlbumContainer .infoAlbum {
+  margin: .1vw 5vw 0vw auto;
+  font-size: .9vw;
+  font-weight: 300;
+  color: #363636;
+  font-style: oblique;
+}
+
+.infoAlbumContainer .infoAlbum .autorAlbum {
+  text-decoration: none;
+  color: #363636;
+}
+/*# sourceMappingURL=pack-large.css.map */

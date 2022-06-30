@@ -1,0 +1,325 @@
+@media (max-width: 425px) {
+  body {
+    background: red;
+  }
+  body .header {
+    height: 12vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  body .header .empresa a {
+    margin-left: 0vw;
+  }
+  body .header .empresa a .logoEmpresa {
+    height: 8vw;
+  }
+  body .header .titlePage {
+    font-size: 6vw;
+  }
+  body .header .navegacion {
+    height: 12vw;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    margin-top: 52vw;
+    height: 164vw;
+    height: 40vw;
+    background: #dc8a8e;
+  }
+  body .header .navegacion .lista {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0vw;
+    width: 100%;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body .header .navegacion .lista li {
+    padding: 0vw;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body .header .navegacion .lista li .enlaceNav {
+    color: #ffffff;
+    font-size: 6vw;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .header .navegacion .socialNetworks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 32vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  body .header .navegacion .socialNetworks .linkRRSS {
+    display: none;
+  }
+  body .header .navegacion .socialNetworks .linkRRSS-mobile {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  body .header .navegacion .socialNetworks .linkRRSS-mobile .imageRRSS {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 7vw;
+    height: 7vw;
+    margin-right: 0vw;
+  }
+  body .header .navegacionMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .homeBody {
+    margin-top: 6vw;
+  }
+  body .homeBody .heroCover {
+    height: 115vw;
+    position: relative;
+    margin: 8vw auto 0vw auto;
+    background-image: url("../pictures/home/hero/1A_PORTADA-mobile.png");
+  }
+  body .homeBody .autorFotoContainer .infoFoto {
+    margin: .1vw 2vw 7vw auto;
+    font-size: 3.4vw;
+    font-weight: 300;
+  }
+  body .homeBody .presentationText {
+    margin-top: 0vw;
+    padding: 2vw 0vw;
+    font-size: 4vw;
+    font-weight: 200;
+  }
+  body .homeBody .homePresentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    z-index: 4;
+    background: #ffffff;
+    padding: 2vw 0vw;
+  }
+  body .homeBody .homePresentation .presentationPicture {
+    position: relative;
+    width: 45%;
+    height: 66vw;
+    background-image: url("../pictures/home/presentation/M&J-233.png");
+    background-size: cover;
+    margin: 0vw 5vw;
+    z-index: 1;
+  }
+  body .homeBody .homePresentation .presentationInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 0vw;
+    width: 50%;
+  }
+  body .homeBody .homePresentation .presentationInfo .presentationDetails {
+    font-size: 4vw;
+    font-weight: 200;
+  }
+  body .homeBody .categorias .subtitle {
+    font-size: 6vw;
+  }
+  body .homeBody .categorias .contenedorCategorias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .homeBody .categorias .contenedorCategorias .itemCategorias {
+    width: 80%;
+    margin-bottom: 8vw;
+  }
+  body .homeBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+    font-size: 4.5vw;
+  }
+  body .homeBody .categorias .contenedorCategorias .itemCategorias img {
+    width: 64vw;
+    height: 64vw;
+  }
+  body .homeBody .contact {
+    margin: 0vw;
+    padding: 2vw 0vw;
+  }
+  body .homeBody .contact .formContainer .contactTitle {
+    font-size: 6vw;
+  }
+  body .homeBody .contact .formContainer .categoryContact {
+    width: 80%;
+    margin: 2vw auto 4vw auto;
+  }
+  body .homeBody .contact .formContainer .categoryContact .categoryContactTitle {
+    font-size: 3.3vw;
+    width: 100%;
+  }
+  body .homeBody .contact .formContainer .categoryContact .categoryContactInput {
+    height: 6vw;
+    width: 100%;
+    font-size: 4.8vw;
+    font-weight: 100;
+  }
+  body .homeBody .contact .formContainer .categoryContact .categoryContactTitle {
+    width: 100%;
+    font-size: 4vw;
+  }
+  body .homeBody .contact .formContainer .categoryContact .categoryContactTextArea {
+    height: 40vw;
+    width: 100%;
+    font-size: 4.8vw;
+  }
+  body .homeBody .contact .formContainer .buttonContainer .contactButton {
+    width: 40%;
+    margin: 4vw auto;
+    font-size: 4vw;
+    padding: 3vw 4vw;
+  }
+  body .homeBody .information {
+    padding: 10vw 0vw;
+  }
+  body .homeBody .information .subtitle {
+    margin: 2vw auto;
+    font-size: 6vw;
+  }
+  body .homeBody .information .informationPart {
+    margin: 1vw auto;
+  }
+  body .homeBody .information .informationPart .subtitle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 4.8vw;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 1px 1px #757575;
+  }
+  body .homeBody .information .informationPart .informationText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  body .footer {
+    height: 4vw;
+    margin: 2vw 0vw;
+  }
+  body .footer .footerDiv h4 {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    color: #616161;
+    font-size: 3vw;
+    font-weight: 500;
+    z-index: 4;
+    margin: 0vw;
+  }
+  body .footer .developedBy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: row;
+        -ms-flex: row;
+            flex: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 0vw 0vw 5vw 0vw;
+  }
+  body .footer .developedBy .develpedText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 2vw;
+    font-weight: 300;
+  }
+  body .footer .developedBy .zelevf {
+    font-size: 1.7vw;
+  }
+  body .footer .developedBy .zelevf .zelevfText {
+    font-weight: 400;
+  }
+}
+/*# sourceMappingURL=small.css.map */

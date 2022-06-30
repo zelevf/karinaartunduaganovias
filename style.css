@@ -1,0 +1,20 @@
+
+@import url(./styles/index.css);
+/* @import url(./styles/medium.css); */
+@import url(./styles/small.css);
+
+@import url(./styles/dresses-large.css);
+@import url(./styles/dresses-medium.css);
+@import url(./styles/dresses-small.css);
+
+@import url(./styles/pack-large.css);
+@import url(./styles/pack-medium.css);
+@import url(./styles/pack-small.css);
+
+/* @import url(./styles/thankyou.css);
+@import url(./styles/thankyou-medium.css);
+@import url(./styles/thankyou-small.css); */
+
+@import url(./styles/fullsizeImage.css);
+@import url(./styles/fullsizeImage-medium.css);
+@import url(./styles/fullsizeImage-small.css);

@@ -1,0 +1,71 @@
+@media (max-width: 425px) {
+    body{
+ 
+        .dressesBody {
+            margin-top: 6vw; 
+    
+            .categorias {
+                padding: 3vw 0vw;
+                margin: 5vw 0vw;
+                margin: auto;
+    
+                .contenedorCategorias {
+                    flex-direction: column;
+                    position: relative;
+                    flex-wrap: wrap;
+                    width: 90%;
+                    margin: 6vw auto 6vw auto;
+    
+                    .itemCategorias {
+                        display: flex;
+                        flex-direction: column;
+                        width: 80%;
+                        margin: 3vw auto 7vw auto;
+                        // margin-bottom: 3vw;
+                        align-items: center;
+                        // background: green;
+    
+                        a{
+                            text-decoration: none;
+                            display: flex;
+                            flex-direction: column;
+                            margin: 0vw auto 0vw auto;
+                            cursor: pointer;
+    
+                            .sutituloCategoria {
+                                position: relative;
+                                margin: auto;
+                                color: #363636;
+                                font-size: 4vw;
+                                font-weight: 300;
+                                margin-top: 4vw;
+                                transition-duration: .3s;
+                            }
+        
+                            .categoriesCard{
+                                width: 100%;
+                                -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
+                                -moz-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.192);
+                                box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
+                                transition-duration: .3s;
+                                transform: scale(1.03);
+                            }
+                        }
+    
+                        a:hover {
+                            transition-duration: .3s;
+                            .sutituloCategoria {
+                                color: #dc8a8e;
+                            }
+        
+                            .categoriesCard{
+                                transform: scale(1.05);
+                                transition-duration: .3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
