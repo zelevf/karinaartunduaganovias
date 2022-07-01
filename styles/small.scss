@@ -2,11 +2,13 @@
 @media (max-width: 425px) {
 
     body {
-        background: red;
+        // background: red;
         .header{
             height: 12vw;
             justify-content: space-around;
             width: 100%;
+            flex-direction: row;
+            // background: blue;
         
             .empresa {
 

@@ -1,12 +1,13 @@
 @media (max-width: 425px) {
-  body {
-    background: red;
-  }
   body .header {
     height: 12vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   body .header .empresa a {
     margin-left: 0vw;
